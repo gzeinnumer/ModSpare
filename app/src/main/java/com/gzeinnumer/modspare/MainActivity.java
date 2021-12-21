@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         }
         Log.d(TAG, "onCreate: " + msg);
         Log.d(TAG, "onCreate: " + clearMsg);
+
+        //onCreate: 0 CTN 18 HGR 2 PCS
+        //onCreate: 18 HGR 2 PCS
     }
 
     private List<UOMConvertResult> uomConverter(List<UOMConvert> list) {
