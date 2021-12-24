@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         List<UOMConvert> list = new ArrayList<>();
         list.add(new UOMConvert(0, 120, "CTN"));
         list.add(new UOMConvert(0, 6, "HGR"));
-        list.add(new UOMConvert(110, 1, "PCS"));
+        list.add(new UOMConvert(120, 1, "PCS"));
 
         List<UOMConvertResult> res = uomConverter(list);
 
